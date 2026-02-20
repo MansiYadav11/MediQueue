@@ -1,2 +1,17 @@
-# MediQueue
-MediQueue+ is an AI-powered healthcare queue management system built using Flask, SQLAlchemy, and DistilBERT. It provides smart doctor recommendations, emergency alert handling, secure payment verification, token-based queue management, and digital prescription generation
+AI-Powered Smart Healthcare Queue & Appointment Management System
+
+MediQueue+ is a full-stack healthcare management system built using Flask, SQLAlchemy, Socket.IO, and a fine-tuned DistilBERT AI model for symptom-based doctor recommendation.
+
+The system enables:
+
+AI-based doctor matching
+
+Token-based appointment queue
+
+Emergency alert handling
+
+Secure doctor dashboard
+
+Payment screenshot verification
+
+Digital prescription generation
