@@ -14,4 +14,5 @@ Secure doctor dashboard
 
 Payment screenshot verification
 
-Digital prescription generation
+Digital prescription generation   
+Contributor identity fixed
