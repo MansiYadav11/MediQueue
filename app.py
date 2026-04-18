@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from flask import Flask, request, render_template_string, session, redirect, url_for, send_from_directory
 from flask_socketio import SocketIO, emit
 from flask_sqlalchemy import SQLAlchemy
@@ -1553,7 +1553,7 @@ with app.app_context():
 if __name__ == '__main__':
     # Create upload folder if it doesn't exist
     os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-=======
+
 from flask import Flask, request, render_template_string, session, redirect, url_for, send_from_directory
 from flask_socketio import SocketIO, emit
 from flask_sqlalchemy import SQLAlchemy
@@ -3072,6 +3072,8 @@ def handle_disconnect():
 def serve_payment_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
+
+
 # ===== INITIALIZE DATABASE =====
 
 with app.app_context():
@@ -3103,10 +3105,40 @@ with app.app_context():
         db.session.commit()
         print("✅ Database initialized with sample doctors")
 
+
 # ===== RUN APPLICATION =====
 
 if __name__ == '__main__':
-    # Create upload folder if it doesn't exist
+    import os
     os.makedirs(UPLOAD_FOLDER, exist_ok=True)
->>>>>>> abf49b5551b79fde8c416d085b76cdc64b9632af
-    socketio.run(app, debug=True, host='0.0.0.0', port=5000)
+
+    socketio.run(app, host='0.0.0.0', port=5000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
